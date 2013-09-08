@@ -9,8 +9,8 @@
     "coffee",
     "coffee-script"
   ],
-  "homepage": "https://github.com/lordnox/generator-node",
-  "bugs": "https://github.com/lordnox/generator-node/issues",
+  "homepage": "https://github.com/lordnox/generator-node-coffee",
+  "bugs": "https://github.com/lordnox/generator-node-coffee/issues",
   "author": {
     "name": "Tobias Kopelke",
     "email": "nox@raynode.de",
@@ -19,7 +19,7 @@
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lordnox/generator-node.git"
+    "url": "https://github.com/lordnox/generator-node-coffee.git"
   },
   "scripts": {
     "test": "mocha"
