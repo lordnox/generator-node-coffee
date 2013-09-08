@@ -3,7 +3,7 @@
 > Create a node.js coffee-script module with [Yeoman][], including jasmine test.
 
 This generator is based of
-[grunt-init-node](https://github.com/yeoman/generator-node), authored by Kyle Robinson Young, Addy Osmani and Stephen Sawchuck.
+[generator-node](https://github.com/yeoman/generator-node), authored by Kyle Robinson Young, Addy Osmani and Stephen Sawchuck.
 The Gruntfile.js is based on [grunt-express-workflow](https://github.com/appleYaks/grunt-express-workflow) from [appleYaks](https://github.com/appleYaks).
 
 Maintained by Tobias Kopelke.

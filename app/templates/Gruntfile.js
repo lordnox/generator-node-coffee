@@ -23,9 +23,9 @@ module.exports = function (grunt) {
           {
             dot: true,
             src: [
-              '<%%= config.dist %%>/*',
-              '<%%= config.distTest %%>/*',
-              '!<%%= config.dist %%>/.git*'
+              '<%%= config.dist %>/*',
+              '<%%= config.distTest %>/*',
+              '!<%%= config.dist %>/.git*'
             ]
           }
         ]
@@ -35,18 +35,18 @@ module.exports = function (grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: '<%%= config.src %%>',
+          cwd: '<%%= config.src %>',
           src: '{,*/}*.coffee',
-          dest: '<%%= config.dist %%>',
+          dest: '<%%= config.dist %>',
           ext: '.js'
         }]
       },
       test: {
         files: [{
           expand: true,
-          cwd: '<%%= config.srcTest %%>',
+          cwd: '<%%= config.srcTest %>',
           src: '{,*/}*.spec.coffee',
-          dest: '<%%= config.distTest %%>',
+          dest: '<%%= config.distTest %>',
           ext: '.spec.js'
         }]
       }
@@ -61,15 +61,15 @@ module.exports = function (grunt) {
     },
     watch: {
       gruntfile: {
-        files: '<%%= jshint.gruntfile.src %%>',
+        files: '<%%= jshint.gruntfile.src %>',
         tasks: ['jshint:gruntfile']
       },
       dist: {
-        files: '<%%= config.src %%>/*',
+        files: '<%%= config.src %>/*',
         tasks: ['coffee:dist', 'simplemocha:backend']
       },
       test: {
-        files: '<%%= config.srcTest %%>/specs/*',
+        files: '<%%= config.srcTest %>/specs/*',
         tasks: ['coffee:test', 'simplemocha:backend']
       }
     },

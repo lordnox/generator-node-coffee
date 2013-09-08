@@ -31,6 +31,6 @@ describe "basic tests", ->
 
   # Now on to a `real` test
   it "<%= slugname %> should be awesome", ->
-    rechnungCouch.should.have.keys 'awesome'
-    rechnungCouch.awesome.should.be.a 'function'
-    rechnungCouch.awesome().should.be.equal 'awesome'
+    <%= camelname %>.should.have.keys 'awesome'
+    <%= camelname %>.awesome.should.be.a 'function'
+    <%= camelname %>.awesome().should.be.equal 'awesome'
