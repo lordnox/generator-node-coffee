@@ -11,7 +11,7 @@ describe('node generator', function () {
         return done(err);
       }
 
-      this.app = helpers.createGenerator('node:app', [
+      this.app = helpers.createGenerator('node-coffee:app', [
         '../../app'
       ]);
       this.app.options['skip-install'] = true;
