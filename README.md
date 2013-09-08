@@ -1,4 +1,4 @@
-# Node Coffee Generator [![Build Status](https://secure.travis-ci.org/loadnox/generator-node-coffee.png?branch=master)](https://travis-ci.org/lordnox/generator-node-coffee)
+# Node Coffee Generator [![Build Status](https://travis-ci.org/lordnox/generator-node-coffee.png?branch=master)](https://travis-ci.org/lordnox/generator-node-coffee)
 
 > Create a node.js coffee-script module with [Yeoman][], including jasmine test.
 
