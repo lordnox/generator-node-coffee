@@ -1,0 +1,48 @@
+{
+  "name": "generator-node-coffee",
+  "version": "0.0.1",
+  "description": "A node generator for Yeoman for Coffee-Script projects",
+  "keywords": [
+    "yeoman-generator",
+    "scaffold",
+    "node",
+    "coffee",
+    "coffee-script"
+  ],
+  "homepage": "https://github.com/lordnox/generator-node",
+  "bugs": "https://github.com/lordnox/generator-node/issues",
+  "author": {
+    "name": "Tobias Kopelke",
+    "email": "nox@raynode.de",
+    "url": "https://github.com/lordnox"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lordnox/generator-node.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.13.3"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0"
+  },
+  "peerDependencies": {
+    "yo": "~1.0.3"
+  },
+  "engines": {
+    "node": ">= 0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "files": [
+    "app"
+  ],
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
