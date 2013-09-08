@@ -1,6 +1,6 @@
 {
   "name": "generator-node-coffee",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A node generator for Yeoman for Coffee-Script projects",
   "keywords": [
     "yeoman-generator",
