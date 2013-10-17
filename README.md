@@ -1,6 +1,6 @@
 # Node Coffee Generator [![Build Status](https://travis-ci.org/lordnox/generator-node-coffee.png?branch=master)](https://travis-ci.org/lordnox/generator-node-coffee)
 
-> Create a node.js coffee-script module with [Yeoman][], including jasmine test.
+> Create a node.js coffee-script module with [Yeoman][], including Mocha tests.
 
 This generator is based of
 [generator-node](https://github.com/yeoman/generator-node), authored by Kyle Robinson Young, Addy Osmani and Stephen Sawchuck.
